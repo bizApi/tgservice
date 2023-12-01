@@ -1,0 +1,23 @@
+{
+    "name": "bizapi/tgservice",
+    "description": "Package for easy using api tg.bizandsoft.ru",
+    "type": "library",
+    "license": "Apache-2.0",
+    "authors": [
+        {
+            "name": "AK",
+            "email": "ak@bizapi.ru"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "php": ">=7.1.0",
+        "ext-curl": "*", 
+        "ext-json": "*"
+    },
+    "autoload": {
+        "psr-4": {
+            "BizApi\\TgService\\": "src/"
+        }
+    }
+}
